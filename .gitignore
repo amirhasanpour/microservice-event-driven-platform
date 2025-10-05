@@ -1,1 +1,10 @@
 .DS_Store
+.vscode
+coverage.out
+frontApp
+logServiceApp
+mailerServiceApp
+authApp
+brokerApp
+listener
+frontEndLinux

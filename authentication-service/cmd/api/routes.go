@@ -20,5 +20,7 @@ func (app *Config) routes() http.Handler {
 		MaxAge: 3000,
 	}))
 
+	mux.Post("/authenticate", app.Authenticate)
+
 	return mux
 }

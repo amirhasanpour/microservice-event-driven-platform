@@ -2,7 +2,7 @@
 .vscode
 coverage.out
 frontApp
-logServiceApp
+loggerApp
 mailerServiceApp
 authApp
 brokerApp

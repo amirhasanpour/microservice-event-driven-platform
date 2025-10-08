@@ -49,7 +49,9 @@ func main() {
 	}
 
 	// start web server
-	go app.serve()
+	log.Println("Starting service on port: ", webPort)
+	// go app.serve()
+	app.serve()
 }
 
 func (app *Config) serve() {
@@ -78,6 +80,8 @@ func connectToMongo() (*mongo.Client, error) {
 		log.Println("error connection: ", err)
 		return nil, err
 	}
+
+	log.Println("Connected to mongo!")
 
 	return c, nil
 }

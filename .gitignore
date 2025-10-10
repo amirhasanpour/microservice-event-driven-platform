@@ -3,7 +3,7 @@
 coverage.out
 frontApp
 loggerApp
-mailerServiceApp
+mailApp
 authApp
 brokerApp
 listener

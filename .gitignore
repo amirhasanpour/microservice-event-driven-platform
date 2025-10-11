@@ -6,6 +6,6 @@ loggerApp
 mailApp
 authApp
 brokerApp
-listener
+listenerApp
 frontEndLinux
 db-data/

@@ -10,7 +10,7 @@ message Log{
 }
 
 message LogRequest {
-    log logEntry = 1;
+    Log logEntry = 1;
 }
 
 message LogResponse {

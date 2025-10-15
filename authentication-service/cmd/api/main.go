@@ -33,8 +33,10 @@ func main() {
 
 	// setup config
 	app := Config{
-
+		
 	}
+
+	app.setupRepo(conn)
 
 	srv := &http.Server{
 		Addr: fmt.Sprintf(":%s", webPort),

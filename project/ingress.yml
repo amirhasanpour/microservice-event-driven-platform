@@ -16,26 +16,6 @@ spec:
                 name: front-end
                 port:
                   number: 8081
-    - host: broker-service.info
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: broker-service
-                port:
-                  number: 8080
-    - host: postgres.info
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: postgres
-                port:
-                  number: 5432
     - host: mailhog.info
       http:
         paths:

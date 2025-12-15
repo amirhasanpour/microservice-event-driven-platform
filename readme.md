@@ -1,4 +1,4 @@
-# Microservice Event-Driven Platform
+# Microservice Event-Driven Sample
 Distributed microservices architecture in Go using gRPC and RPC for inter-service communication. Integrated RabbitMQ for asynchronous message brokering and PostgreSQL/MongoDB for persistent data storage. Containerized all services with Docker and orchestrated deployments using Kubernetes for scalability and resilience. Utilized MailHog for email testing and Make for streamlined build and deployment automation.
 
 ---
